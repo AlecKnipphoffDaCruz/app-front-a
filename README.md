@@ -10,3 +10,4 @@ docker build -t app-front-a . && docker run -p 8080:8080 app-front-a   # testar 
 
 O CI (`.github/workflows/ci.yaml`) publica a imagem no GHCR e atualiza a tag no platform-gitops.
 Precisa do secret `GITOPS_TOKEN` (token com permissão de escrita no repo platform-gitops).
+
